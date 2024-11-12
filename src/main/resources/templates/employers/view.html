@@ -15,7 +15,7 @@
             <li th:each="job : ${employer.jobs}">
                 <a th:href="@{'/view/' + ${job.id}}" th:text="${job.name}"></a>
             </li>
-    </ul>
+        </ul>
     </p>
 </div>
 
